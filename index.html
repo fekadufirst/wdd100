@@ -10,7 +10,6 @@
             color: green;
             background-color: darkorange;
             text-decoration: none;
-            line-height: 2;
             padding: 1px;
             font-size: 18px;
         }
@@ -28,7 +27,7 @@
         }
         
         #navBar {
-            background-color: beige;
+            background-color:cornflowerblue;
             text-decoration-color: blue;
             font-size: 20px;
         }
@@ -39,7 +38,7 @@
             color: #1B5FCA;
             font-family: "rock salt", "serif";
             margin-bottom: -24px;
-            font-size: 30px;
+            font-size: 18px;
             margin-top: 0px;
         }
         
@@ -63,7 +62,8 @@
             margin: 0 auto;
             font-family: "sans-serif", "new times roman";
             font-weight: 100;
-            
+            flex: 1 0 15em;
+            width: 48%;
         }
         
         #great {
@@ -73,14 +73,41 @@
         #leftcol {
             width: 48%;
         }
-        #rightcol{
+        
+        #rightcol {
             width: 48%;
         }
-        #bottom-row{
-            width:48%;
+        
+        #bottom-row {
+            width: 48%;
         }
         
+        #top-row,
+        #middle-row {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+        }
         
+        img {
+            max-width: 100%;
+        }
+        
+        .leftcol,
+        .rightcol {
+            width: 48%;
+            flex: 1 0 15em;
+            margin: .5em;
+        }
+        
+        #date {
+            height: 55px;
+        }
+        
+        .footer {
+            float: right;
+            margin-top: -63px;
+        }
     </style>
 </head>
 
@@ -105,45 +132,45 @@
             </div>
         </nav>
         <main>
-        <div id="banner"><img alt="Image for our website" src="http://brothert.net/dryoar/images/river-wide.JPG"></div>
+            <div id="banner"><img alt="Image for our website" src="http://brothert.net/dryoar/images/river-wide.JPG"></div>
 
 
-        <section id="top-row">
-            <div class="leftcol">
-                <h1 class="red-tex">We run rivers to relax</h1>
-                <P>We believe that there is nothing like a river trip for <em>relaxing</em>. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the <strong>beauty</strong>that surrounds the rivers we love.</P>
-            </div>
+            <section id="top-row">
+                <div class="leftcol">
+                    <h1 class="red-tex">We run rivers to relax</h1>
+                    <P>We believe that there is nothing like a river trip for <em>relaxing</em>. That is why we subscribe to the dry oar philosophy of boating. Keeping your oars dry for us means taking time to look around and notice the <strong>beauty</strong>that surrounds the rivers we love.</P>
+                </div>
 
-            <div class="rightcol">
-                <figure>
-                    <img alt="Image for our website" src="http://brothert.net/dryoar/images/deso-boats.jpg">
-                </figure>
-            </div>
-        </section>
-        <section id="middle-row">
-        
-            <div class="leftcol"> <img alt="Image for our website" src="http://brothert.net/dryoar/images/deercreek-portrait.jpg"></div>
-            
-              <div class="rightcol">
-            <h2>We run whitewater for the Rush!</h2>
-            <p class="darkorange-text">That doesn't mean we don't also like rapids. Opposites in all things after all. We believe that that tenseness that comes when you are looking down the tongue of a big string of waves makes you appreciate the calm beautiful water that always follows even more.</p>
-            </div>
-        </section>
-        <section id="bottom-row">
-            <h2>Come enjoy us!</h2>
-            <p>We invite you to come relax with us on one of the amazing rivers we visit. Check out our trips and let us know which one best suits you. We're waiting to hear from you!</p>
-        </section>
+                <div class="rightcol">
+                    <figure>
+                        <img alt="Image for our website" src="http://brothert.net/dryoar/images/deso-boats.jpg">
+                    </figure>
+                </div>
+            </section>
+            <section id="middle-row">
+
+                <div class="leftcol"> <img alt="Image for our website" src="http://brothert.net/dryoar/images/deercreek-portrait.jpg"></div>
+
+                <div class="rightcol">
+                    <h2>We run whitewater for the Rush!</h2>
+                    <p class="darkorange-text">That doesn't mean we don't also like rapids. Opposites in all things after all. We believe that that tenseness that comes when you are looking down the tongue of a big string of waves makes you appreciate the calm beautiful water that always follows even more.</p>
+                </div>
+            </section>
+            <section id="bottom-row">
+                <h2>Come enjoy us!</h2>
+                <p>We invite you to come relax with us on one of the amazing rivers we visit. Check out our trips and let us know which one best suits you. We're waiting to hear from you!</p>
+            </section>
         </main>
-        <footer>
+        <footer id="date">
             <ul>
                 <li>&copy;2016</li>
                 <li>Fekadu Haile</li>
                 <li>Last Updated:10/7/2016
                 </li>
             </ul>
-            <img alt="fecebook" src="facebook.png">
-            <img alt="googleplus" src="googleplus.png">
-            <img alt="youtube" src="youtube.png">
+            <img class="footer" alt="fecebook" src="facebook.png">
+            <img class="footer" alt="googleplus" src="googleplus.png">
+            <img class="footer" alt="youtube" src="youtube.png">
         </footer>
     </div>
 </body>
