@@ -1,0 +1,151 @@
+ @import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+ p {
+     color: green;
+     background-color: darkorange;
+     text-decoration: none;
+     padding: 1px;
+     font-size: 18px;
+ }
+ 
+ #middle-row {
+     background-color: deepskyblue;
+ }
+ 
+ section {
+     padding: 15px;
+ }
+ 
+ .darkorange-text {
+     color: black;
+ }
+ 
+ #navBar {
+     font-size: 20px;
+     background-color: #396E94;
+     text-decoration: none;
+     margin-bottom: -20px;
+     margin-top: -107px;
+     padding-left: 160px;
+ }
+ 
+ #banner {
+     width: 100%;
+ }
+nav a :link, nav a:visited {
+  
+    text-decoration: none;
+    
+}
+nav a:hover{
+color: #396E94;
+    background-color: #E7C24F;
+}
+ 
+ #logo {
+     background-color: white;
+     margin-left: 29px;
+     width: 100px;
+     border-style: solid;
+     border-color:brown;
+     margin-bottom: -10px;
+     position: relative;
+     padding: 1em .6em
+ }
+ 
+ nav li {
+     display: inline-block;
+     font-size: 1.2em;
+     line-height: 3em;
+     text-decoration: none;
+ }
+ 
+ nav a {
+     text-decoration: none;
+     color: gold;
+     padding: 1em .6em
+ }
+ 
+ nav > li {
+     list-style-type: none;
+ }
+ 
+ nav {
+     font-size: 1.2em
+ }
+ 
+ h1,
+ h2,
+ h3 {
+     color: #1B5FCA;
+     font-family: "rock salt", "serif";
+     margin-bottom: -24px;
+     font-size: 18px;
+     margin-top: 0px;
+ }
+ 
+ body {
+     font-family: "arial", "new times roman", "sans-serif";
+ }
+ 
+ .content {
+     width: 80%;
+     max-width: 960px;
+     margin: 0 auto;
+     margin-top: 0;
+     margin-bottom: 0;
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ #bottom-row {
+     text-align: center;
+     widows: 80%;
+     margin: 0 auto;
+     font-family: "sans-serif", "new times roman";
+     font-weight: 100;
+     flex: 1 0 15em;
+     width: 48%;
+ }
+ 
+ #great {
+     width: 960px;
+ }
+ 
+ #leftcol {
+     width: 48%;
+ }
+ 
+ #rightcol {
+     width: 48%;
+ }
+ 
+ #bottom-row {
+     width: 48%;
+ }
+ 
+ #top-row,
+ #middle-row {
+     display: flex;
+     flex-flow: row wrap;
+     align-items: center;
+ }
+ 
+ img {
+     max-width: 100%;
+ }
+ 
+ .leftcol,
+ .rightcol {
+     width: 48%;
+     flex: 1 0 15em;
+     margin: .5em;
+ }
+ 
+ #date {
+     height: 55px;
+ }
+ 
+ .footer {
+     float: right;
+     margin-top: -20px;
+ }
