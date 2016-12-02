@@ -11,10 +11,7 @@
      background-color: deepskyblue;
  }
  
- section {
-     padding: 15px;
- }
- 
+
  .darkorange-text {
      color: black;
  }
@@ -142,10 +139,28 @@ color: #396E94;
  }
  
  #date {
-     height: 55px;
+    
+       background-color: #396E94;
+     height: 4em;
  }
  
  .footer {
      float: right;
-     margin-top: -20px;
+     margin-top: -63px;
  }
+
+#pages{
+    
+    color: green;
+     background-color: darkorange;
+     font-size: 18px;
+}
+.headings{
+text-align: center;
+
+}
+.name{
+text-align: center;
+    font-size: 25px;
+   
+}
