@@ -3,7 +3,7 @@
      color: green;
      background-color: darkorange;
      text-decoration: none;
-     padding: 1px;
+     padding: 15px;
      font-size: 18px;
      
  }
@@ -150,15 +150,15 @@ color: #396E94;
      margin-top: -63px;
  }
 
-#pages{
+.pages{
     
     color: green;
      background-color: darkorange;
      font-size: 18px;
     padding: 30px;
 }
-.takedown{
-  margin-bottom: -90px;
+#takedown{
+  margin-bottom: -170px;
 }
 .headings{
 text-align: center;
@@ -171,15 +171,16 @@ text-align: center;
 .takeup{
   margin-bottom: -50px;
     margin-top: 30px;
+
 }
-.ethio{
+#ethio{
     margin-top: -40px;
 }
-.opia{
+#opia{
       margin-top: -40px;
     margin-bottom: -53px;
 }
-.abyss{
+#abyss{
     margin-top: -40px;
     
 }
@@ -193,4 +194,7 @@ text-align: center;
 text-align: center;
     font-size: 25px;
    
+}
+#padd{
+    padding: 15px;
 }
